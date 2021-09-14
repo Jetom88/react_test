@@ -100,7 +100,7 @@ class Main extends Component {
                                 <div className="feeds_story_box">
                                     <div className="feeds_box_txt">
                                         <p>스토리</p>
-                                        <p><a href="#">모두보기</a></p>
+                                        {/* <p><a href="#">모두보기</a></p> */}
                                     </div>
                                     <div className="story_users">
                                         <div className="story_users_info">
@@ -139,7 +139,7 @@ class Main extends Component {
                                 <div className="feeds_recommend_box">
                                     <div className="feeds_box_txt">
                                         <p>회원님을 위한 추천</p>
-                                        <p><a href="#">모두보기</a></p>
+                                        {/* <p><a href="#">모두보기</a></p> */}
                                     </div>
                                     <div className="feeds_recommend_users">
                                         <div className="recommend_users_info">
@@ -149,7 +149,7 @@ class Main extends Component {
                                                 <p className="recommend_txt">JaeSoon님 외 5명이 알고있습니다.</p>
                                             </div>
                                             <div className="users_follow">
-                                                <a href="#" className="follow_link">팔로우</a>
+                                                {/* <a href="#" className="follow_link">팔로우</a> */}
                                             </div>
                                         </div>
                                         <div className="recommend_users_info">
@@ -159,7 +159,7 @@ class Main extends Component {
                                                 <p className="recommend_txt">subin님 외 8명이 알고있습니다.</p>
                                             </div>
                                             <div className="uers_follow">
-                                                <a href="#" className="follow_link">팔로우</a>
+                                                {/* <a href="#" className="follow_link">팔로우</a> */}
                                             </div>
                                         </div>
                                     </div>
@@ -169,7 +169,7 @@ class Main extends Component {
                             <div className="company_info">
                                 <address>
                                     <ul>
-                                        <li><a href="#" target="_blank">Tomstagram 정보</a></li>
+                                        {/* <li><a href="#" target="_blank">Tomstagram 정보</a></li>
                                         <li><a href="#" target="_blank">지원</a></li>
                                         <li><a href="#" target="_blank">홍보 센터</a></li>
                                         <li><a href="#" target="_blank">API</a></li>
@@ -179,7 +179,7 @@ class Main extends Component {
                                         <li><a href="#" target="_blank">디렉터리</a></li>
                                         <li><a href="#" target="_blank">프로필</a></li>
                                         <li><a href="#" target="_blank">해시태그</a></li>
-                                        <li><a href="#" target="_blank">언어</a></li>
+                                        <li><a href="#" target="_blank">언어</a></li> */}
                                     </ul>
                                 </address>
                                 <p>&#x00A9; 2021 TOMSTAGRAM FROM SHINHYERI</p>

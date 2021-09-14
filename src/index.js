@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Routes from './Router'
-import App from './App';
-// import Login from './pages/login/Login';
-import Main from './pages/main/Main';
-import './styles/common.css';
-import { Route } from 'react-router-dom';
+import Routes from './Router';
+import "./styles/common.css";
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<Routes />, document.getElementById('root'));
 
