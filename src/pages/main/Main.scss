@@ -1,0 +1,193 @@
+@import "/src/styles/var.scss";
+
+.MainBody {
+    width:100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+    .feeds_comment_uesrs_id{
+        margin-right: 0.5rem;
+        font-weight: bold;
+        color: #262626;
+    }
+
+    .feeds_comment_uesrs_id{
+        font-weight: 600;
+    }
+
+    header {
+        @include flex;
+        position: fixed;
+        width: 100%;
+        height: 54px;
+        background: white;
+        border-bottom:1px solid #dbdbdb;
+        z-index: 9999;
+
+        .nav_con {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+
+            form {
+                position: relative;
+                width: 20%;
+
+                .fa-search {
+                    position: absolute;
+                    top: 27%;
+                    left: 38%;
+                    font-size: 0.7rem;
+                    color:#a8aaad;
+                }
+
+                input {
+                    width:100%;
+                    padding:6px;
+                    border:1px solid #dbdbdb;
+                    border-radius: 3px;
+                    text-align: center;
+                    color:#8e8e9c;
+                    background:#fafafa;
+                }
+            }
+
+            .logo_cons {
+                @include flex;
+                position: relative;
+
+                .logo_line {
+                    width:1px;
+                    height: 1.5rem;
+                    margin:0 1rem;
+                    border:1px solid #383838;
+                }
+
+                .Mainlogo {
+                    font-family: 'Lobster';
+                    font-size: 1.2rem;
+                }
+            }   
+            
+            .nav_icons {
+                display: flex;
+                
+                 img {
+                    max-width: 12%;
+                    margin: 0 0.5rem;
+                }
+            }
+            
+        }
+    }
+
+    section {
+        display: flex;
+        width: 100%;
+        padding: 7rem 0;
+        background:#fafafa;
+
+        article {
+            display: flex;
+            position: relative;
+            margin:0 auto;
+
+            .main_container{
+                max-width: 614px;
+                border:1px solid #e6e6e6;
+                background: white;
+
+                .feeds_users {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 100%;
+                    padding: 1rem;
+
+                    .feeds_users_info {
+                        display: flex;
+                        align-items: center;
+                        width: 50%;
+
+                        img {
+                            width: 15%;
+                            border:1px solid #e6e6e6;
+                            border-radius: 50%;
+                        }
+
+                        .feeds_users_info_txt {
+                            margin-left: 1rem;
+                            font-size: 0.9rem;
+
+                            .feeds_users_id {
+                                margin-bottom: 0.6rem;
+                                font-weight: bold;
+                                color: #262626;
+                            }
+                        }
+                    }
+                }
+
+                .feeds_main_img {
+                    width: 100%;
+                    overflow: hidden;
+                    img {
+                        max-width: 100%;
+                    }
+                }
+
+                .feeds_info {
+                    width: 95%;
+                    margin: 0 auto;
+
+                    .feeds_icons {
+                        display: flex;
+                        align-items: center;
+                        padding: 0.8rem 0;
+                        font-size:1.5rem;
+
+                        .icon_padding {
+                            margin-right: 0.8rem;
+                        }
+
+                        .fa-heart {
+                            color: #ed4956;
+                        }
+
+                        .fa-bookmark{
+                            margin-left: auto;
+                        }
+                    }
+
+                    .feeds_comment_box{
+                        .like_uesrs{
+                                display: flex;
+                                align-items: center;
+                             img {
+                                max-width: 5%;
+                                margin-right: 0.5rem;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        .feeds_comment_uesrs {
+                            margin: 0.8rem 0;
+
+                            p { 
+                                margin-top: 0.6rem;
+                                overflow: hidden;
+
+                                .comment_see_more {
+                                    color:#979797;
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

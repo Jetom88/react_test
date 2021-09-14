@@ -1,0 +1,83 @@
+
+.loginBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background:#fafafa;
+}
+
+/* cotainer_section */
+
+.cotainer {
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #e7e7e7;
+    background:white;
+    overflow: hidden;
+}
+
+.cotainer > section {
+    margin-bottom: 10rem;
+}
+
+
+.logo {
+    font-family: 'Lobster';
+    margin:2rem auto 4rem auto;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.loginBox {
+    width:100%;
+    overflow: hidden;
+}
+
+
+.loginBox > form {
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    margin:0 auto;
+}
+
+.loginBox > form > input, 
+.loginBtn {
+    padding: 9px 0 7px 8px;
+    border-radius: 3px;
+}
+
+.loginBox > form > input{
+    margin: 0.2rem 0;
+    border: 1px solid #efefef;
+    font-size: 16px;
+    color:rgba(38, 38, 38, 1);
+    background:#fafafa;
+}
+
+.loginBox > .password{
+    margin-bottom: 2rem;
+}
+
+.loginBtn {
+    margin-top: 1.5rem;
+    border: none;
+    color:white;
+    font-size:1.1rem;
+    font-weight: 600;
+    background:#b8dffc;
+}
+
+/* footer */
+
+.loginBody > .cotainer > footer {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.forget_password{
+    color:#00376b;
+    font-size: 1rem;
+}
